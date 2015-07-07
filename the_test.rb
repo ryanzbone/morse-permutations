@@ -1,7 +1,7 @@
 require './morse_to_english'
 require './insert_space'
 
-input = '..--..-...-....---....-...-.....'
+input = '...---...'
 
 mte = MorseToEnglish.new
 permutations = InsertSpace.new.permutations(input)
